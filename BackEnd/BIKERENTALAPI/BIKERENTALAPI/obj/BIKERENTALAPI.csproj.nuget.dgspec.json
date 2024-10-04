@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UT01211\\Desktop\\New folder (3)\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj": {}
+    "C:\\Users\\UT01655\\Desktop\\bike\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UT01211\\Desktop\\New folder (3)\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj": {
+    "C:\\Users\\UT01655\\Desktop\\bike\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UT01211\\Desktop\\New folder (3)\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj",
+        "projectUniqueName": "C:\\Users\\UT01655\\Desktop\\bike\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj",
         "projectName": "BIKERENTALAPI",
-        "projectPath": "C:\\Users\\UT01211\\Desktop\\New folder (3)\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj",
-        "packagesPath": "C:\\Users\\UT01211\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UT01211\\Desktop\\New folder (3)\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\obj\\",
+        "projectPath": "C:\\Users\\UT01655\\Desktop\\bike\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj",
+        "packagesPath": "C:\\Users\\UT01655\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\UT01655\\Desktop\\bike\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UT01211\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\UT01655\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

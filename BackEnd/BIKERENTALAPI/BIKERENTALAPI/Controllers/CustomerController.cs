@@ -139,7 +139,50 @@ namespace BIKERENTALAPI.Controllers
             }
         }
 
+        [HttpPost("rental")]
+        public async Task<IActionResult> AddRental(RentalRequestDTO rentalRequestDTO)
+        {
+            try
+            {
+                var result = await _customerServies.AddRental(rentalRequestDTO);
+                return CreatedAtAction(nameof(GetRentalById), new { id = result.id }, result);
+            }
+            catch (Exception ex)
+            {
 
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+        [HttpPut("bike-return/{id}")]
+        public async Task<IActionResult> BikeisReturn(Guid id)
+        {
+            try
+            {
+                var result = await _customerServies.BikeisReturn(id);
+                if (result == null)
+                    return NotFound("Rental not found or already returned");
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+        [HttpGet("GetAllRentals")]
+        public async Task<IActionResult> GetAllRentals()
+        {
+            try
+            {
+                var result = await _customerServies.GetAllRentals();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
 
 
     }
