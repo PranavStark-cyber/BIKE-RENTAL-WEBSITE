@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj": {}
+    "C:\\Users\\UT01211\\Desktop\\New folder (3)\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj": {}
   },
   "projects": {
-    "F:\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj": {
+    "C:\\Users\\UT01211\\Desktop\\New folder (3)\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj",
+        "projectUniqueName": "C:\\Users\\UT01211\\Desktop\\New folder (3)\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj",
         "projectName": "BIKERENTALAPI",
-        "projectPath": "F:\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj",
-        "packagesPath": "C:\\Users\\Tony stark\\.nuget\\packages\\",
-        "outputPath": "F:\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\obj\\",
+        "projectPath": "C:\\Users\\UT01211\\Desktop\\New folder (3)\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj",
+        "packagesPath": "C:\\Users\\UT01211\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\UT01211\\Desktop\\New folder (3)\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tony stark\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\UT01211\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
