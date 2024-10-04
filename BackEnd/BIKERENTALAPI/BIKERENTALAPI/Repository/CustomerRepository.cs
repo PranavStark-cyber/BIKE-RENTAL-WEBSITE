@@ -204,5 +204,89 @@ namespace BIKERENTALAPI.Repository
             }
         }
 
+        public async Task<Rental> AddRental(Rental rental)
+        {
+            rental.id = Guid.NewGuid();
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+                var command = new SqlCommand(
+                    "INSERT INTO Rentals (Id, CustomerID, MotorbikeID,RentalDate,Returndate,Isoverdue, Status) VALUES (@Id, @CustomerID, @MotorbikeID,@RentalDate,@RentalDate,@Isoverdue, @Status); SELECT SCOPE_IDENTITY();", connection);
+                command.Parameters.AddWithValue("@Id", rental.id);
+                command.Parameters.AddWithValue("@CustomerID", rental.CustomerID);
+                command.Parameters.AddWithValue("@MotorbikeID", rental.MotorbikeID);
+                command.Parameters.AddWithValue("@RentalDate", rental.RentalDate);
+                command.Parameters.AddWithValue("@Returndate", rental.Returndate);
+                command.Parameters.AddWithValue("@Isoverdue", rental.Isoverdue);
+                command.Parameters.AddWithValue("@status", rental.status);
+
+                await command.ExecuteScalarAsync();
+
+                return rental;
+            }
+        }
+
+
+
+        public async Task<Rental> UpdaterenttoReturn(Rental rental)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+                var command = new SqlCommand(
+                    "UPDATE Rentals SET Status = @Status WHERE Id = @Id", connection);
+                command.Parameters.AddWithValue("@Id", rental.id);
+                command.Parameters.AddWithValue("@Status", "Return");
+
+                await command.ExecuteNonQueryAsync();
+
+                // Fetch updated data from the database
+                var selectCommand = new SqlCommand(
+                    "SELECT * FROM Rentals WHERE Id = @Id", connection);
+                selectCommand.Parameters.AddWithValue("@Id", rental.id);
+
+                using (var reader = await selectCommand.ExecuteReaderAsync())
+                {
+                    if (await reader.ReadAsync())
+                    {
+                        // Map the updated rental data
+                        rental.status = reader["Status"].ToString();
+                        rental.Returndate = reader.GetDateTime(reader.GetOrdinal("Returndate"));
+                        rental.Isoverdue = reader.GetBoolean(reader.GetOrdinal("Isoverdue"));
+                        // Map other necessary fields
+                    }
+                }
+
+                return rental;
+            }
+        }
+        public async Task<List<Rental>> GetAllRentals()
+        {
+            var rentals = new List<Rental>();
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+                var command = new SqlCommand("SELECT * FROM Rentals", connection);
+
+                var reader = await command.ExecuteReaderAsync();
+                while (await reader.ReadAsync())
+                {
+                    rentals.Add(new Rental
+                    {
+                        id = reader.GetGuid(reader.GetOrdinal("Id")),
+                        CustomerID = reader.GetGuid(reader.GetOrdinal("CustomerID")),
+                        MotorbikeID = reader.GetGuid(reader.GetOrdinal("MotorbikeID")),
+                        RentalDate = reader.GetDateTime(reader.GetOrdinal("RentalDate")),
+                        Returndate = reader.GetDateTime(reader.GetOrdinal("Returndate")),
+                        Isoverdue = reader.GetBoolean(reader.GetOrdinal("Isoverdue")),
+                        status = reader.GetString(reader.GetOrdinal("status"))
+
+                    });
+                }
+            }
+            return rentals;
+        }
+
+
     }
 }

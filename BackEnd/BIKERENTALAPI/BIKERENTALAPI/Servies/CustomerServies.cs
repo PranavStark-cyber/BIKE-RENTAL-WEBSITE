@@ -181,5 +181,158 @@ namespace BIKERENTALAPI.Servies
             return customerrespo;
         }
 
+        public async Task<RentalResponseDTO> AddRental(RentalRequestDTO rentalRequestDTO)
+        {
+            var rental = new Rental
+            {
+                CustomerID = rentalRequestDTO.CustomerID,
+                MotorbikeID = rentalRequestDTO.MotorbikeID,
+                status = rentalRequestDTO.status,
+                Returndate = rentalRequestDTO.Returndate,
+                RentalDate = rentalRequestDTO.RentalDate,
+            };
+
+            var data = await _customerRepository.AddRental(rental);
+
+            var rentalresp = new RentalResponseDTO
+            {
+                id = data.id,
+                CustomerID = data.CustomerID,
+                MotorbikeID = data.MotorbikeID,
+                Returndate = data.Returndate,
+                status = data.status,
+                Isoverdue = data.Isoverdue,
+                RentalDate = data.RentalDate,
+            };
+
+            return rentalresp;
+        }
+
+        public async Task<RentalResponseDTO> BikeisReturn(Guid id)
+        {
+            var Rentdata = await _customerRepository.GetRentalByID(id);
+            if (Rentdata.status == "string")
+            {
+                var data = await _customerRepository.UpdaterenttoReturn(Rentdata);
+
+                var RentalRespon = new RentalResponseDTO
+                {
+                    id = id,
+                    RentalDate = data.RentalDate,
+                    Returndate = data.Returndate,
+                    MotorbikeID = data.MotorbikeID,
+                    CustomerID = data.CustomerID,
+                    Isoverdue = data.Isoverdue,
+                    status = data.status
+                };
+
+                return RentalRespon;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public async Task<List<RentalResponseDTO>> GetAllRentals()
+        {
+            var customer = await _customerRepository.GetAllRentals();
+
+            var data = new List<RentalResponseDTO>();
+            foreach (var item in customer)
+            {
+                var rentalrespo = new RentalResponseDTO
+                {
+                    id = item.id,
+                    MotorbikeID = item.MotorbikeID,
+                    CustomerID = item.CustomerID,
+                    RentalDate = item.RentalDate,
+                    Returndate = item.Returndate,
+                    Isoverdue = item.Isoverdue,
+                    status = item.status,
+                };
+
+                data.Add(rentalrespo);
+            }
+
+            return data;
+        }
+        public async Task<RentalResponseDTO> AddRental(RentalRequestDTO rentalRequestDTO)
+        {
+            var rental = new Rental
+            {
+                CustomerID = rentalRequestDTO.CustomerID,
+                MotorbikeID = rentalRequestDTO.MotorbikeID,
+                status = rentalRequestDTO.status,
+                Returndate = rentalRequestDTO.Returndate,
+                RentalDate = rentalRequestDTO.RentalDate,
+            };
+
+            var data = await _customerRepository.AddRental(rental);
+
+            var rentalresp = new RentalResponseDTO
+            {
+                id = data.id,
+                CustomerID = data.CustomerID,
+                MotorbikeID = data.MotorbikeID,
+                Returndate = data.Returndate,
+                status = data.status,
+                Isoverdue = data.Isoverdue,
+                RentalDate = data.RentalDate,
+            };
+
+            return rentalresp;
+        }
+
+        public async Task<RentalResponseDTO> BikeisReturn(Guid id)
+        {
+            var Rentdata = await _customerRepository.GetRentalByID(id);
+            if (Rentdata.status == "string")
+            {
+                var data = await _customerRepository.UpdaterenttoReturn(Rentdata);
+
+                var RentalRespon = new RentalResponseDTO
+                {
+                    id = id,
+                    RentalDate = data.RentalDate,
+                    Returndate = data.Returndate,
+                    MotorbikeID = data.MotorbikeID,
+                    CustomerID = data.CustomerID,
+                    Isoverdue = data.Isoverdue,
+                    status = data.status
+                };
+
+                return RentalRespon;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public async Task<List<RentalResponseDTO>> GetAllRentals()
+        {
+            var customer = await _customerRepository.GetAllRentals();
+
+            var data = new List<RentalResponseDTO>();
+            foreach (var item in customer)
+            {
+                var rentalrespo = new RentalResponseDTO
+                {
+                    id = item.id,
+                    MotorbikeID = item.MotorbikeID,
+                    CustomerID = item.CustomerID,
+                    RentalDate = item.RentalDate,
+                    Returndate = item.Returndate,
+                    Isoverdue = item.Isoverdue,
+                    status = item.status,
+                };
+
+                data.Add(rentalrespo);
+            }
+
+            return data;
+        }
+
     }
 }
