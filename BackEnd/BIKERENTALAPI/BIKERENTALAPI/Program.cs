@@ -1,12 +1,10 @@
 
-using BIKERENTALAPI.Database;
+
 using BIKERENTALAPI.IRepository;
 using BIKERENTALAPI.IServies;
 using BIKERENTALAPI.Repository;
 using BIKERENTALAPI.Servies;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.FileProviders;
+
 
 namespace BIKERENTALAPI
 {
@@ -26,6 +24,7 @@ namespace BIKERENTALAPI
         
 
             var connectionString = builder.Configuration.GetConnectionString("Bikeconnection");
+
             builder.Services.AddScoped<IManagerRepository>(provider => new ManagerRepository(connectionString));
             builder.Services.AddScoped<IManagerServies, ManagerService>();
 
