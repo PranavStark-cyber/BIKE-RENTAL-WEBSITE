@@ -81,9 +81,66 @@ namespace BIKERENTALAPI.Controllers
             }
         }
 
+        [HttpGet("rental/{id}")]
+        public async Task<IActionResult> GetRentalById(Guid id)
+        {
+            try
+            {
+                var result = await _customerServies.GetRentalById(id);
+                if (result == null)
+                    return NotFound("Rental not found");
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
 
-      
+        [HttpGet("rentals/customer/{customerId}")]
+        public async Task<IActionResult> GetAllRentalsByCustomerId(Guid customerId)
+        {
+            try
+            {
+                var result = await _customerServies.GetAllRentalsByCustomerId(customerId);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
 
-      
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAllCustomer()
+        {
+            try
+            {
+                var result = await _customerServies.GetAllCustomer();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddCustomer(CustomerRequestDTO customerRequestDTO)
+        {
+            try
+            {
+                var result = await _customerServies.Addcustomer(customerRequestDTO);
+                return CreatedAtAction(nameof(GetCustomerByID), new { id = result.Id }, result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+
+
+
     }
 }

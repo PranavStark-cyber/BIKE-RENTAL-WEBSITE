@@ -89,5 +89,97 @@ namespace BIKERENTALAPI.Servies
             return data;
         }
 
+
+        public async Task<RentalResponseDTO> GetRentalById(Guid id)
+        {
+            var data = await _customerRepository.GetRentalByID(id);
+            var rentalresp = new RentalResponseDTO
+            {
+                id = data.id,
+                CustomerID = data.CustomerID,
+                MotorbikeID = data.MotorbikeID,
+                Returndate = data.Returndate,
+                status = data.status,
+                Isoverdue = data.Isoverdue,
+                RentalDate = data.RentalDate,
+            };
+
+            return rentalresp;
+        }
+
+        public async Task<List<RentalResponseDTO>> GetAllRentalsByCustomerId(Guid customerId)
+        {
+            var rentals = await _customerRepository.GetAllRentalsByCustomerID(customerId);
+
+            var rentaldata = new List<RentalResponseDTO>();
+
+            foreach (var data in rentals)
+            {
+                var rentalresp = new RentalResponseDTO
+                {
+                    id = data.id,
+                    CustomerID = data.CustomerID,
+                    MotorbikeID = data.MotorbikeID,
+                    Returndate = data.Returndate,
+                    status = data.status,
+                    Isoverdue = data.Isoverdue,
+                    RentalDate = data.RentalDate,
+                };
+
+                rentaldata.Add(rentalresp);
+            }
+            return rentaldata;
+        }
+
+        public async Task<List<CustomerResponseDTO>> GetAllCustomer()
+        {
+            var customer = await _customerRepository.GetAllCustomer();
+
+            var data = new List<CustomerResponseDTO>();
+            foreach (var item in customer)
+            {
+                var customerrespo = new CustomerResponseDTO
+                {
+                    FirstName = item.FirstName,
+                    Nic = item.Nic,
+                    Id = item.Id,
+                    Mobilenumber = item.Mobilenumber,
+                    Licence = item.Licence,
+                    Rental_history = item.Rental_history,
+                    Password = item.Password,
+                };
+
+                data.Add(customerrespo);
+            }
+
+            return data;
+        }
+
+        public async Task<CustomerResponseDTO> Addcustomer(CustomerRequestDTO customerRequestDTO)
+        {
+            var customerreques = new Customer
+            {
+                FirstName = customerRequestDTO.FirstName,
+                Licence = customerRequestDTO.Licence,
+                Nic = customerRequestDTO.Nic,
+                Mobilenumber = customerRequestDTO.Mobilenumber,
+                Password = customerRequestDTO.Password
+            };
+
+            var data = await _customerRepository.Addcustomer(customerreques);
+
+            var customerrespo = new CustomerResponseDTO
+            {
+                FirstName = data.FirstName,
+                Licence = data.Licence,
+                Nic = data.Nic,
+                Id = data.Id,
+                Mobilenumber = data.Mobilenumber,
+                Password = data.Password,
+            };
+
+            return customerrespo;
+        }
+
     }
 }
