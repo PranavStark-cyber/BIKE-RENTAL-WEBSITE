@@ -527,15 +527,15 @@
 
 /* Initial state of the search box */
 .searchBar[type=text] {
-    border-radius: 100%;
-    width: 30px;
-    height: 30px;
+    border-radius: 3%;
+    width: 300px;
+    height: 35px;
     border: 1px solid var(--main-color);
 background-color: var(--second-bg-color);
     position:absolute;
-    margin-right: 90px;
+    margin-left: 450px;
     
-    right: 0; /* Anchor to the right side */
+
     -webkit-transition: width 0.4s ease-out;
     transition: width 0.4s ease-out;
     z-index: 1000;
