@@ -536,7 +536,7 @@ background-color: var(--second-bg-color);
     margin-left: 450px;
     
 
-    -webkit-transition: width 0.4s ease-out;
+    -webkit-transition: width 0.3s ease-out;
     transition: width 0.4s ease-out;
     z-index: 1000;
     /* Add other styling properties if needed */
