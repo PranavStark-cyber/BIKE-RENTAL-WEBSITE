@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         <p>Model: ${motorbike.model}</p>
                         <p>Brand: ${motorbike.brand}</p>
                         <p>Category: ${motorbike.category}</p>
-                        <a href="#" onclick="rentMotorbike('${motorbike.id}')"><i class='bx bx-link-external'></i></a>
+                        <a href="#" onclick="rentMotorbike('${motorbike.id}')"><i class='bx'>Rent</i></a>
                     </div>
                 `;
                 availableMotorbikeBody.appendChild(bikeBox);
