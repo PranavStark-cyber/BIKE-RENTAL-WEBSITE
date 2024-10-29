@@ -507,11 +507,13 @@ function fetchRentalData() {
                       
                       // Create a new row
                       const row = document.createElement('tr');
+                      console.log(rental);
+                      
                       row.innerHTML = `
                           <td>${customer ? customer.nic : 'Unknown'}</td>
                           <td>${bike ? bike.regnumber : 'Unknown'}</td>
                           <td>${rental.rentalDate}</td>
-                          <td>${rental.returnProcessed ? 'Yes' : 'No'}</td>
+                          <td>${rental.status=="Return" ? 'Yes' : 'No'}</td>
                       `;
                       tbody.appendChild(row);
                   });
@@ -533,7 +535,7 @@ function fetchCustomerData() {
             data.forEach(customer => {
                 console.log(customer);
                 
-                const rentalCount = customer.rental_history ? customer.rental_history.length : 'No Rentals';
+                const rentalCount = customer.rental_history? customer.rental_history.length : 'No Rentals';
 
 
                 const row = document.createElement('tr');

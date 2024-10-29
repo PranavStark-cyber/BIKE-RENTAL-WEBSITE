@@ -137,9 +137,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (rental.customerID === currentUser.id) {
                     const motorbike = motorbikes.find(mb => mb.id === rental.motorbikeID);
                     if (motorbike) {
+                        console.log(motorbike);
+                        
                         const row = document.createElement('tr');
                         row.innerHTML = `
-                            <td>${motorbike.regNumber}</td>
+                            <td>${motorbike.regnumber}</td>
                             <td>${motorbike.brand}</td>
                             <td>${motorbike.model}</td>
                             <td>${motorbike.category}</td>

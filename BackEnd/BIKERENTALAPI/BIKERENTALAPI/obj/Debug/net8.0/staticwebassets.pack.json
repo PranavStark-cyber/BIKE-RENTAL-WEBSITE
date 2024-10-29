@@ -1,68 +1,8 @@
 {
   "Files": [
     {
-      "Id": "F:\\bike api\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\009caa3a-fbbd-47e9-89f7-6bc51f944d0a.jpg",
-      "PackagePath": "staticwebassets\\bikeimages\\009caa3a-fbbd-47e9-89f7-6bc51f944d0a.jpg"
-    },
-    {
-      "Id": "F:\\bike api\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\13a975e3-1e5f-4924-8918-1bb75d592e58.jpg",
-      "PackagePath": "staticwebassets\\bikeimages\\13a975e3-1e5f-4924-8918-1bb75d592e58.jpg"
-    },
-    {
-      "Id": "F:\\bike api\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\5b57efb4-2aca-459e-a9e7-4b5e09605ce3.jpg",
-      "PackagePath": "staticwebassets\\bikeimages\\5b57efb4-2aca-459e-a9e7-4b5e09605ce3.jpg"
-    },
-    {
-      "Id": "F:\\bike api\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\67d59014-61b9-45ad-828a-249c7e5a5b61.jpg",
-      "PackagePath": "staticwebassets\\bikeimages\\67d59014-61b9-45ad-828a-249c7e5a5b61.jpg"
-    },
-    {
-      "Id": "F:\\bike api\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\6f43cadc-e555-4bf4-8c29-c4cd248d94f5.jpg",
-      "PackagePath": "staticwebassets\\bikeimages\\6f43cadc-e555-4bf4-8c29-c4cd248d94f5.jpg"
-    },
-    {
-      "Id": "F:\\bike api\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\74e2cbcb-f42c-4b44-b2ad-5202f57a39a8.jpg",
-      "PackagePath": "staticwebassets\\bikeimages\\74e2cbcb-f42c-4b44-b2ad-5202f57a39a8.jpg"
-    },
-    {
-      "Id": "F:\\bike api\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\7a88b94d-0d63-4b91-ae07-a1eabaae539a.jpg",
-      "PackagePath": "staticwebassets\\bikeimages\\7a88b94d-0d63-4b91-ae07-a1eabaae539a.jpg"
-    },
-    {
-      "Id": "F:\\bike api\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\81188cb6-f955-4a10-8517-aa3dcb74dccd.jpg",
-      "PackagePath": "staticwebassets\\bikeimages\\81188cb6-f955-4a10-8517-aa3dcb74dccd.jpg"
-    },
-    {
-      "Id": "F:\\bike api\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\81462a98-ee64-4e91-88a9-49d23ff6dd70.jpg",
-      "PackagePath": "staticwebassets\\bikeimages\\81462a98-ee64-4e91-88a9-49d23ff6dd70.jpg"
-    },
-    {
-      "Id": "F:\\bike api\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\Thumbs.db",
-      "PackagePath": "staticwebassets\\bikeimages\\Thumbs.db"
-    },
-    {
-      "Id": "F:\\bike api\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\a321a558-8843-480a-b386-edc0e31e388d.jpg",
-      "PackagePath": "staticwebassets\\bikeimages\\a321a558-8843-480a-b386-edc0e31e388d.jpg"
-    },
-    {
-      "Id": "F:\\bike api\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\a8d20ced-2f05-48dd-b77a-d1d97442b2a4.jpg",
-      "PackagePath": "staticwebassets\\bikeimages\\a8d20ced-2f05-48dd-b77a-d1d97442b2a4.jpg"
-    },
-    {
-      "Id": "F:\\bike api\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\b414d7f4-8336-4c91-9220-d00e4d6e44f3.jpg",
-      "PackagePath": "staticwebassets\\bikeimages\\b414d7f4-8336-4c91-9220-d00e4d6e44f3.jpg"
-    },
-    {
-      "Id": "F:\\bike api\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\d3d2de29-f015-418e-8b34-a614db425835.jpg",
-      "PackagePath": "staticwebassets\\bikeimages\\d3d2de29-f015-418e-8b34-a614db425835.jpg"
-    },
-    {
-      "Id": "F:\\bike api\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\f1b9487d-521e-4df0-9e79-5178cedd768b.jpg",
-      "PackagePath": "staticwebassets\\bikeimages\\f1b9487d-521e-4df0-9e79-5178cedd768b.jpg"
-    },
-    {
-      "Id": "F:\\bike api\\BIKE RENTAL WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\ff4f163e-ed3d-4083-a03e-2a590101de5c.jpg",
-      "PackagePath": "staticwebassets\\bikeimages\\ff4f163e-ed3d-4083-a03e-2a590101de5c.jpg"
+      "Id": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\project\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\3dcbbd5c-4585-4b78-a249-6b02fa8dca3d.jpg",
+      "PackagePath": "staticwebassets\\bikeimages\\3dcbbd5c-4585-4b78-a249-6b02fa8dca3d.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BIKERENTALAPI.Microsoft.AspNetCore.StaticWebAssets.props",

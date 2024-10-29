@@ -4640,19 +4640,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\UT01211\\.nuget\\packages\\": {}
+    "C:\\Users\\Tony stark\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\project\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj",
       "projectName": "BIKERENTALAPI",
-      "projectPath": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj",
-      "packagesPath": "C:\\Users\\UT01211\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\obj\\",
+      "projectPath": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\project\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\BIKERENTALAPI.csproj",
+      "packagesPath": "C:\\Users\\Tony stark\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\project\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\UT01211\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tony stark\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4736,7 +4736,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

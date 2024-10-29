@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hcSeJt3/0dkAj3Pmk8rve0sqOTc1vBwja/CQJB+6kZI=",
+  "Hash": "fvh+OJt0ziMa0IB5WYHkn1Xa/p8Bw07vLrp6xVUMjrI=",
   "Source": "BIKERENTALAPI",
   "BasePath": "_content/BIKERENTALAPI",
   "Mode": "Default",
@@ -10,10 +10,30 @@
     {
       "Name": "BIKERENTALAPI\\wwwroot",
       "Source": "BIKERENTALAPI",
-      "ContentRoot": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\project\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\",
       "BasePath": "_content/BIKERENTALAPI",
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\project\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\bikeimages\\3dcbbd5c-4585-4b78-a249-6b02fa8dca3d.jpg",
+      "SourceId": "BIKERENTALAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\project\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\wwwroot\\",
+      "BasePath": "_content/BIKERENTALAPI",
+      "RelativePath": "bikeimages/3dcbbd5c-4585-4b78-a249-6b02fa8dca3d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bikeimages\\3dcbbd5c-4585-4b78-a249-6b02fa8dca3d.jpg"
+    }
+  ]
 }

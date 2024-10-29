@@ -1,34 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\project\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31A32BB2-D9B4-46D8-ADD2-C9538F3B3635}|BIKERENTALAPI\\BIKERENTALAPI.csproj|c:\\users\\ut01211\\desktop\\bike rental website\\bike-rental-website\\backend\\bikerentalapi\\bikerentalapi\\servies\\customerservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31A32BB2-D9B4-46D8-ADD2-C9538F3B3635}|BIKERENTALAPI\\BIKERENTALAPI.csproj|solutionrelative:bikerentalapi\\servies\\customerservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31A32BB2-D9B4-46D8-ADD2-C9538F3B3635}|BIKERENTALAPI\\BIKERENTALAPI.csproj|c:\\users\\ut01211\\desktop\\bike rental website\\bike-rental-website\\backend\\bikerentalapi\\bikerentalapi\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31A32BB2-D9B4-46D8-ADD2-C9538F3B3635}|BIKERENTALAPI\\BIKERENTALAPI.csproj|solutionrelative:bikerentalapi\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31A32BB2-D9B4-46D8-ADD2-C9538F3B3635}|BIKERENTALAPI\\BIKERENTALAPI.csproj|c:\\users\\ut01211\\desktop\\bike rental website\\bike-rental-website\\backend\\bikerentalapi\\bikerentalapi\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31A32BB2-D9B4-46D8-ADD2-C9538F3B3635}|BIKERENTALAPI\\BIKERENTALAPI.csproj|solutionrelative:bikerentalapi\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31A32BB2-D9B4-46D8-ADD2-C9538F3B3635}|BIKERENTALAPI\\BIKERENTALAPI.csproj|c:\\users\\ut01211\\desktop\\bike rental website\\bike-rental-website\\backend\\bikerentalapi\\bikerentalapi\\entity\\bikes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31A32BB2-D9B4-46D8-ADD2-C9538F3B3635}|BIKERENTALAPI\\BIKERENTALAPI.csproj|solutionrelative:bikerentalapi\\entity\\bikes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31A32BB2-D9B4-46D8-ADD2-C9538F3B3635}|BIKERENTALAPI\\BIKERENTALAPI.csproj|c:\\users\\ut01211\\desktop\\bike rental website\\bike-rental-website\\backend\\bikerentalapi\\bikerentalapi\\servies\\managerservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31A32BB2-D9B4-46D8-ADD2-C9538F3B3635}|BIKERENTALAPI\\BIKERENTALAPI.csproj|solutionrelative:bikerentalapi\\servies\\managerservies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31A32BB2-D9B4-46D8-ADD2-C9538F3B3635}|BIKERENTALAPI\\BIKERENTALAPI.csproj|c:\\users\\ut01211\\desktop\\bike rental website\\bike-rental-website\\backend\\bikerentalapi\\bikerentalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{31A32BB2-D9B4-46D8-ADD2-C9538F3B3635}|BIKERENTALAPI\\BIKERENTALAPI.csproj|c:\\users\\tony stark\\onedrive\\desktop\\project\\bike-rental-website\\backend\\bikerentalapi\\bikerentalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{31A32BB2-D9B4-46D8-ADD2-C9538F3B3635}|BIKERENTALAPI\\BIKERENTALAPI.csproj|solutionrelative:bikerentalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31A32BB2-D9B4-46D8-ADD2-C9538F3B3635}|BIKERENTALAPI\\BIKERENTALAPI.csproj|c:\\users\\ut01211\\desktop\\bike rental website\\bike-rental-website\\backend\\bikerentalapi\\bikerentalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31A32BB2-D9B4-46D8-ADD2-C9538F3B3635}|BIKERENTALAPI\\BIKERENTALAPI.csproj|solutionrelative:bikerentalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\Repository\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "BIKERENTALAPI\\Repository\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\Repository\\CustomerRepository.cs",
-              "RelativeToolTip": "BIKERENTALAPI\\Repository\\CustomerRepository.cs",
-              "ViewState": "AQIAAK0AAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T04:34:52.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\Entity\\Customer.cs",
-              "RelativeDocumentMoniker": "BIKERENTALAPI\\Entity\\Customer.cs",
-              "ToolTip": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\Entity\\Customer.cs",
-              "RelativeToolTip": "BIKERENTALAPI\\Entity\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T04:34:43.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Bikes.cs",
-              "DocumentMoniker": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\Entity\\Bikes.cs",
-              "RelativeDocumentMoniker": "BIKERENTALAPI\\Entity\\Bikes.cs",
-              "ToolTip": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\Entity\\Bikes.cs",
-              "RelativeToolTip": "BIKERENTALAPI\\Entity\\Bikes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T04:17:03.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomerServies.cs",
-              "DocumentMoniker": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\Servies\\CustomerServies.cs",
-              "RelativeDocumentMoniker": "BIKERENTALAPI\\Servies\\CustomerServies.cs",
-              "ToolTip": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\Servies\\CustomerServies.cs",
-              "RelativeToolTip": "BIKERENTALAPI\\Servies\\CustomerServies.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAIwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T04:14:34.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ManagerServies.cs",
-              "DocumentMoniker": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\Servies\\ManagerServies.cs",
-              "RelativeDocumentMoniker": "BIKERENTALAPI\\Servies\\ManagerServies.cs",
-              "ToolTip": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\Servies\\ManagerServies.cs",
-              "RelativeToolTip": "BIKERENTALAPI\\Servies\\ManagerServies.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T04:14:29.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\project\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\appsettings.json",
               "RelativeDocumentMoniker": "BIKERENTALAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Tony stark\\OneDrive\\Desktop\\project\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\appsettings.json",
               "RelativeToolTip": "BIKERENTALAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-16T04:14:13.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\Program.cs",
-              "RelativeDocumentMoniker": "BIKERENTALAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\UT01211\\Desktop\\BIKE RENTAL WEBSITE\\BIKE-RENTAL-WEBSITE\\BackEnd\\BIKERENTALAPI\\BIKERENTALAPI\\Program.cs",
-              "RelativeToolTip": "BIKERENTALAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T04:14:03.023Z",
+              "WhenOpened": "2024-10-29T14:07:52.401Z",
               "EditorCaption": ""
             }
           ]
