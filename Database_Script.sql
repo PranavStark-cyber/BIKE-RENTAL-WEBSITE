@@ -17,9 +17,9 @@ CREATE TABLE Bikes (
 CREATE TABLE Customers (
     Id UNIQUEIDENTIFIER PRIMARY KEY,   
     FirstName NVARCHAR(100) NOT NULL,  
-    Mobilenumber BIGINT NOT NULL,      
-    Licence BIGINT NOT NULL,				
-    Nic BIGINT NOT NULL,					
+    Mobilenumber INT NOT NULL,      
+    Licence INT NOT NULL,				
+    Nic INT NOT NULL,					
     Password NVARCHAR(255) NOT NULL,		
     IsActive BIT DEFAULT 1					
 );
@@ -48,5 +48,7 @@ CREATE TABLE Rentals (
 );
 
 
-
+select*from customers
+select*from Rentals
+select*from Bikes
 
